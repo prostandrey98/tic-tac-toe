@@ -59,4 +59,3 @@ class User
         unset($_SESSION['login']);
     }
 }
-

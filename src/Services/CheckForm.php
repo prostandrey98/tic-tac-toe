@@ -32,8 +32,9 @@ class CheckForm
     {
         $Provider = new Provider();
         $data_file = $Provider->readUser($login_check_unique);
-        if ($data_file != null) {
+        if (null != $data_file) {
             echo 'Такой login уже занят: login';
+
             exit;
         }
     }
@@ -42,6 +43,7 @@ class CheckForm
     {
         if ($password != $confirm_password) {
             echo 'Пароль не подтвержден: confirm_password';
+
             exit;
         }
     }
@@ -50,12 +52,14 @@ class CheckForm
     {
         $Provider = new Provider();
         $user_DB = $Provider->readUser($user_auth->getLogin());
-        if ($user_DB == null) {
+        if (null == $user_DB) {
             echo 'Пользователь не найден: login';
+
             exit;
         }
-        if ($user_DB["password"] != $user_auth->getPassword()) {
+        if ($user_DB['password'] != $user_auth->getPassword()) {
             echo 'Неверный пароль: password';
+
             exit;
         }
     }

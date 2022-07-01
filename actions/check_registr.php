@@ -1,10 +1,8 @@
 <?php
 
 use Models\User;
-use Services\Ajax;
-use Services\CheckForm;
 use Provider\Provider;
-
+use Services\CheckForm;
 
 $user = new User();
 $user->setLogin(CheckForm::preparationData($_POST['login'], 'login'))->setPassword(CheckForm::preparationData($_POST['password'], 'password'));
