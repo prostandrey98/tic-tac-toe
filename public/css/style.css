@@ -1,0 +1,84 @@
+.header{
+  margin: auto;
+	width: 600px;
+  height: 50px;
+  border-bottom-style: ridge;
+  border-bottom-color: #747171;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.gipersilka {
+  text-decoration: none;
+	color: #2c2c2c;
+}
+
+.zagolovok_shapki {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  word-spacing: 40px;
+}
+
+#zagolovok_shapki1 {
+  text-align: left;
+  width: 300px;
+}
+
+#zagolovok_shapki2 {
+  text-align: right;
+  width: 300px;
+}
+
+.work_blok{
+  margin: auto;
+	width: 600px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form{
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.label{
+  width: 150;
+}
+
+.input{
+  width: 205;
+}
+
+.error{
+  width: 240;
+  padding: 0px;
+  color: red;
+  font-size: 12px;
+}
+
+#zagolovok_tablici{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.input_sub{
+  width: 205px;
+  margin-top: 20px;
+}
+
+.hello{
+  margin: auto;
+	width: 600px;
+  padding-right: 20px;
+  padding-left: 375px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #2c2c2c;
+}
